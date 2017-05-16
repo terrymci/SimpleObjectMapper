@@ -75,3 +75,4 @@ public class SOMJson
     private static final String CLOSE = "}";
     private static final String LINE_FEED = "\n";
 }
+

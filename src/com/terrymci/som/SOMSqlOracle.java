@@ -195,3 +195,4 @@ public class SOMSqlOracle
     private static final String CLOSE = ")";
     private static final String COMMAND_END = ";";
 }
+

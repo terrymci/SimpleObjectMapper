@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.lang.Enum;
 
-
 /**
  * Static-only class to convert between simpe objects and comma-separated-value (CSV) text
  *

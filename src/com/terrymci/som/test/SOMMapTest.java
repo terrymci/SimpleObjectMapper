@@ -39,3 +39,4 @@ public class SOMMapTest
 		assertTrue(employee.getRate() == 87.65);
 	}
 }
+

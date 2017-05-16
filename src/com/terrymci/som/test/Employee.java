@@ -2,6 +2,10 @@ package com.terrymci.som.test;
 
 import com.terrymci.som.SOMField;
 
+/**
+ * Simple test POJO.
+ *
+ */
 public class Employee
 {
 // ENUMS/CONSTANTS...
@@ -13,13 +17,16 @@ public class Employee
 		NUMBER,
 		RATE,
 	}
-	
+
+	// Data fields for SQL update statement
 	public static final Employee.Field SQL_FIELDS_DATA[] = 
 		{
 			Employee.Field.NAME,
 			Employee.Field.TEMPORARY,
 			Employee.Field.RATE
 		};
+	
+	// Identity fields for SQL update statement
 	public static final Employee.Field SQL_FIELDS_IDENTITY[] = 
 		{
 			Employee.Field.NUMBER
